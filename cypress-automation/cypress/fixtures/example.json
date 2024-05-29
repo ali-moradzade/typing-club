@@ -1,10 +1,16 @@
 {
-  "name": "Bob",
-  "email": "bob@gmail.com",
-  "password": "very secure password",
-  "gender": "Male",
-  "productNames": [
-    "Blackberry",
-    "Nokia Edge"
+  "lessons": [
+    {
+      "name": "Stewardess",
+      "content": "\"Stewardesses\" is the longest word that is typed with only the left hand. A stewardess is a woman who is employed to provide meals for and otherwise look after passengers on a ship or aircraft. These days, we typically use the term flight attendant, which can refer to a man or woman that performs this job. What other words are typed with only one hand?"
+    },
+    {
+      "name": "Indiana",
+      "content": "Indiana is a state in the United States. Its capital and largest city is Indianapolis. Other famous cities and towns include Bloomington, Gary, Ft. Wayne, South Bend, Evansville, Muncie, and Marion. People who live in Indiana or are from there are called Hoosiers. Indiana's state bird is a Cardinal, Indiana's state flower is a Peony, Indiana's state tree is a Tulip Tree."
+    },
+    {
+      "name": "Smart Phones",
+      "content": "Nowadays, phones are clever enough to grasp your physical surroundings. They can detect the size of a room and the presence of other people. Kids studying the Mesozoic Era would be able to place a virtual Tyrannosaurus in their home or classroom. The technology would even know when to display information about a scene depicted in a painting as you stroll through a museum."
+    }
   ]
 }
