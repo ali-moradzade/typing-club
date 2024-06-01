@@ -11,8 +11,6 @@ describe('My First Test', () => {
     it('typingclub.com', {
         defaultCommandTimeout: 10000,
     }, function () {
-        cy.viewport('macbook-16');
-
         cy.visit('https://www.typingclub.com/sportal/');
         cy.get('.navbar-right').find('a').contains('Login').click();
 
