@@ -63,6 +63,10 @@
     {
       "name": "Hairdresser",
       "content": "Hairdressers help people cut, color, and style their hair. Qualified staff are usually called \"stylists\". Most hairdressing businesses serve both male and female customers. Male hairdressers who cut men's hair using a buzzer and a pair of scissors are often called barbers. The prestige of the job has been steadily growing over the past years."
+    },
+    {
+      "name": "Electoral College",
+      "content": "The Electoral College consists of 538 electors. A majority of 270 electoral votes is required to elect the President. Your state's entitled allotment of electors equals the number of members in its Congressional delegation: one for each member in the House of Representatives plus two for your Senators. The president of the USA gets elected every four years."
     }
   ]
 }
