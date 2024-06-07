@@ -1,17 +1,24 @@
 const {defineConfig} = require("cypress");
 
-require('dotenv').config()
+require('dotenv').config();
+
+function getEnv(name) {
+    const value = process.env[name];
+
+    if (!value) {
+        throw new Error(`Environment variable ${name} not set!`);
+    }
+
+    return value;
+}
 
 module.exports = defineConfig({
     chromeWebSecurity: false,
     e2e: {
-        setupNodeEvents(on, config) {
-            // implement node event listeners here
-        },
         specPattern: 'cypress/integration/examples/*.js',
         env: {
-            username: process.env.USER_NAME,
-            password: process.env.PASSWORD,
+            username: getEnv('USER_NAME'),
+            password: getEnv('PASSWORD'),
         }
     },
 });
