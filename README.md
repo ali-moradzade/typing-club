@@ -22,7 +22,7 @@ and `password`:
 Open Cypress by:
 
 ```shell
-    npx cypress open
+    npm run test
 ```
 
 Navigate to: `E2E Testing`, choose your favorite browser (recommended: **electron**)
